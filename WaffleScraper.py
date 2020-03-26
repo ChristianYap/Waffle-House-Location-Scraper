@@ -56,11 +56,6 @@ class Spider1(scrapy.Spider):
                     header = False
                 w.writerow(var)
 
-        # Now that all the information is in the .csv, let's separate the coordinates into x,y:
-
-
-
-
         # Close the writer that allows us to write the .csv file
         f.close()
     # Done, now we geocode!
